@@ -1,0 +1,14 @@
+{
+  "name": "ctcl-image-gallery",
+  "version": "1.0.1",
+  "description": "Vanilla JS Library to create Image gallery with list of image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gallery"
+  ],
+  "author": "UjW0L",
+  "license": "MIT"
+}
