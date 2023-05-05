@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Vanilla JS Library to create Image gallery with list of image
+> Vanilla JS Library to create Image gallery with list of image(not production ready yet)
 
 ## Install
 

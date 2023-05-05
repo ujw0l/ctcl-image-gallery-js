@@ -8,12 +8,12 @@
  */
 
 
-class ctclImgGal{
+export class ctclImgGal{
 
 
     constructor(elems,opt){
 
-        Array.from(document.querySelectorAll(elems)).map(x=>this.createGal(x, opt));
+        Array.from(document.querySelectorAll(elems)).map(x=>this.createGal(x, {imgGal:Array.from(x.querySelectorAll('img')),mainImgHt:x.offsetHeight, mainImgWd:x.offsetWidth  }));
 
     }
 
