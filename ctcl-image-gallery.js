@@ -94,7 +94,7 @@ class ctclImgGal{
                 });
             });
 
-            undefined != opt && undefined != opt.callBack && opt.callBack();
+            undefined != opt && undefined != opt.callBack && opt.callBack(el);
     }
 
 }
