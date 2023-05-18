@@ -21,7 +21,7 @@ npm install ctcl-image-gallery
 ## Usage
 
 ```sh
-<script src=&#34;ctcl-image-gallery.js&#34;></script> or <script src=&#34;ctcl-image-gallery.min.js&#34;></script>
+<script src='ctcl-image-gallery.js'></script> or <script src='ctcl-image-gallery.min.js'></script>
 
 <script>
 
@@ -29,7 +29,7 @@ npm install ctcl-image-gallery
  {
   mainImgHt:500, ( Number, Gallery and main image width - Optional , default : Element width )
   mainImgWd:900, ( Number, Gallery and main image height - Optional , default : Element Height )
-  callBack:()=>{} (Call back function to be called when gallery is applied- Optional )
+  callBack:()=>{} (Call back function to be called when gallery is applied - Optional )
   });
 
   *Parameter 1 - Required
