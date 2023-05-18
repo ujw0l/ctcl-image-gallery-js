@@ -8,7 +8,9 @@
   </a>
 </p>
 
-> Vanilla JS Library to create Image gallery with list of image(not production ready yet)
+> Vanilla JS Library to create Image gallery with list of image
+
+### 🏠 [Homepage](https://github.com/ujw0l/ctcl-image-gallery-js)
 
 ## Install
 
@@ -19,7 +21,20 @@ npm install ctcl-image-gallery
 ## Usage
 
 ```sh
-new ctclImgGal('Selector/s' )
+<script src=&#34;ctcl-image-gallery.js&#34;></script> or <script src=&#34;ctcl-image-gallery.min.js&#34;></script>
+
+<script>
+
+ new ctclImgGal('.image_gallery_2', ('Seletor/s to apply gallery to')
+ {
+  mainImgHt:500, ( Number, Gallery and main image width - Optional , default : Element width )
+  mainImgWd:900, ( Number, Gallery and main image height - Optional , default : Element Height )
+  callBack:()=>{} (Call back function to be called when gallery is applied- Optional )
+  });
+
+  *Parameter 1 - Required
+  *Parameter 2 - Optional
+</script>
 ```
 
 ## Run tests
@@ -33,14 +48,18 @@ npm run test
 👤 **UjW0L**
 
 * Website: http://ujw0l.github.io
-* Github: [@UjW0L](https://github.com/UjW0L)
+* Github: [@ujw0l](https://github.com/ujw0l)
 * LinkedIn: [@ujwol-bastakoti-559219236](https://linkedin.com/in/ujwol-bastakoti-559219236)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ujw0l/ctcl-image-gallery-js/issues). 
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-<a href="https://www.patreon.com/UjW0L">
+<a href="https://www.patreon.com/ujw0l">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 

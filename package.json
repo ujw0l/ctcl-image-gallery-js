@@ -1,6 +1,6 @@
 {
   "name": "ctcl-image-gallery",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Vanilla JS Library to create Image gallery with list of image",
   "main": "index.js",
   "scripts": {
