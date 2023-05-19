@@ -29,6 +29,7 @@ npm install ctcl-image-gallery
  {
   mainImgHt:500, ( Number, Gallery and main image width - Optional , default : Element width )
   mainImgWd:900, ( Number, Gallery and main image height - Optional , default : Element Height )
+  imageEvent:'mousemove' (Event to change main image, refer to "addEventListener" in JS, - Optional, default: click)
   callBack:(el)=>{} (Call back function   to be called when gallery is applied which get gallery element as parameter - Optional )
   });
 

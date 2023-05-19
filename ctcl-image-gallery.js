@@ -1,6 +1,6 @@
 
 /*
- * Js Masonry
+ * Ctcl Image Gallery
  * javascript library create gallery with main image
  * https://ujw0l.github.io/
  * MIT license
@@ -31,6 +31,7 @@ class ctclImgGal{
  */
     createGal(el,opt){
 
+        let imgChngEvnt = undefined != opt && undefined != opt.imageEvent ? opt.imageEvent : 'click';
         let galWd = undefined != opt && undefined != opt.mainImgWd ? opt.mainImgWd : el.offsetWidth;
         let galHt = undefined != opt && undefined != opt.mainImgHt ? opt.mainImgHt : el.offsetHeight;
         el.classList.add('ctclig-image-list');
@@ -84,7 +85,7 @@ class ctclImgGal{
                    e.target.style.height = '70px';
                    e.target.style.margin = '2px';
                     e.target.style.display = '';
-                    e.target.addEventListener('click', e => {
+                    e.target.addEventListener(imgChngEvnt, e => {
                         mainImgDiv.setAttribute('data-num',i);
                         mainImgDiv.style.backgroundImage = `url("${e.target.src}")`;
                         e.target.scrollIntoView({ behavior: "smooth", block:'nearest', inline: "center" });
