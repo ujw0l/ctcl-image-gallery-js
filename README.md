@@ -29,7 +29,7 @@ npm install ctcl-image-gallery
  {
   mainImgHt:500, ( Number, Gallery and main image width - Optional , default : Element width )
   mainImgWd:900, ( Number, Gallery and main image height - Optional , default : Element Height )
-  imageEvent:'mousemove' (Event to change main image, refer to "addEventListener" in JS, - Optional, default: click)
+  imageEvent:'click' (Event to change main image, refer to "addEventListener" in JS, - Optional, default: click)
   callBack:(el)=>{} (Call back function   to be called when gallery is applied which get gallery element as parameter - Optional )
   });
 
@@ -60,9 +60,16 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
+<ul>
+<li>
 <a href="https://www.patreon.com/ujw0l">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
+</li>
+<li>
+<a href="https://www.buymeacoffee.com/ujw0l" title=" Buy me Beer"> 🍺 </a>
+</li>
+</ul>
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
